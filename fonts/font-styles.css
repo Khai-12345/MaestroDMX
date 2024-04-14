@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Scandium Light";
+  src: url("https://tlczjs.csb.app/fonts/Scandium-Light.woff2") format("woff2"),
+    url("https://tlczjs.csb.app/fonts/Scandium-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Scandium Light";
+  src: url("https://tlczjs.csb.app/fonts/Scandium-LightItalic.woff2")
+      format("woff2"),
+    url("https://tlczjs.csb.app/fonts/Scandium-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Scandium";
+  src: url("https://tlczjs.csb.app/fonts/Scandium-Regular.woff2")
+      format("woff2"),
+    url("https://tlczjs.csb.app/fonts/Scandium-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Scandium";
+  src: url("https://tlczjs.csb.app/fonts/Scandium-RegularItalic.woff2")
+      format("woff2"),
+    url("https://tlczjs.csb.app/fonts/Scandium-RegularItalic.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Scandium";
+  src: url("https://tlczjs.csb.app/fonts/Scandium-Bold.woff2") format("woff2"),
+    url("https://tlczjs.csb.app/fonts/Scandium-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Scandium";
+  src: url("https://tlczjs.csb.app/fonts/Scandium-BoldItalic.woff2")
+      format("woff2"),
+    url("https://tlczjs.csb.app/fonts/Scandium-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+* {
+  font-family: "Scandium", sans-serif !important;
+  font-weight: 400;
+}
+h3 {
+  font-family: "Scandium", sans-serif !important;
+  font-weight: 700;
+}

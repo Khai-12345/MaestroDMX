@@ -1,0 +1,116 @@
+.fw-main-wrapper{
+    margin-top: 0px;
+}
+
+#home-hero h1{
+    margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+
+
+.card.fw-kbase-card .fw-icon-holder img{
+    width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+.forums-icon{
+    width: 6.5rem;
+  height: 6.5rem;
+  object-fit: contain;
+}
+
+p.hero-wroking-hour{
+    margin-top: 2rem;
+  white-space: nowrap;
+  font-size: 17.5px;
+}
+p.hero-wroking-hour span{
+  color: #B3A2FC;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body[working-hour-banner-mode="true"]{
+    overflow: hidden;
+}
+body[working-hour-banner-mode="true"] div.working_hour_banner{
+  opacity: 1;
+  pointer-events: auto;  
+}
+
+div.working_hour_banner{
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+    position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100; 
+  background-color: rgba(0,0,0, 0.45);
+  text-align: center;
+}
+div.working_hour_banner > div{
+    position: relative;
+  max-width: 900px;
+  padding: 136px 172px;
+  background-color: white;
+  width: 90%;
+}
+
+.working_hour_banner-close{
+    position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+div.working_hour_banner h3{
+    font-size: 36px;
+}
+div.working_hour_banner p{
+    font-size: 14px;
+}
+.div.working_hour_banner a{
+    color: #6532FF;
+}
+div.working_hour_banner .working_hour_banner-p1{
+    margin: 2rem 0;
+}
+
+@media only screen and (max-width: 779px){
+  div.working_hour_banner > div{
+    padding: 30px 40px;
+  }
+  div.working_hour_banner h3{
+    font-size: 24px;
+  }
+  div.working_hour_banner .working_hour_banner-p1{
+    margin: 1rem 0;
+  }
+  .working_hour_banner-close{
+    width: 1rem;
+    height: 1rem;
+    top: 1rem;
+    right: 1rem;
+  }
+  p.hero-wroking-hour{
+    white-space: normal;
+  }
+}
+
+ #home_main_grid{
+    display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+
+#home_main_grid card{
+    flex-direction: column;
+}
